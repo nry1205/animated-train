@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog Pribadi Profesional">
+    <title>Blog Pribadi</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        header {
+            background-color: #2C3E50;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        nav a {
+            margin: 0 1.5rem;
+            text-decoration: none;
+            color: #2980B9;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #1ABC9C;
+        }
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        article {
+            margin-bottom: 2rem;
+        }
+        article h2 {
+            color: #2980B9;
+        }
+        article p {
+            line-height: 1.6;
+        }
+        a.read-more {
+            text-decoration: none;
+            color: #2980B9;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+        a.read-more:hover {
+            color: #1ABC9C;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #2C3E50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+        }
+        form input, form textarea {
+            padding: 0.75rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        form button {
+            background-color: #2980B9;
+            color: white;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background-color: #1ABC9C;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Blog Pribadi Profesional</h1>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Blog</a>
+    <a href="#">Kontak</a>
+</nav>
+
+<main>
+    <article>
+        <h2>Posting Terbaru</h2>
+        <p>Selamat datang di blog pribadiku yang berfokus pada berbagai topik menarik, termasuk investasi, teknologi, dan banyak lagi. Di sini, aku berbagi ide dan pengalaman yang bisa memberikan wawasan baru.</p>
+        <a href="#" class="read-more">Baca selengkapnya</a>
+    </article>
+
+    <article>
+        <h2>Judul Blog 1</h2>
+        <p>Isi singkat blog post 1... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+        <a href="#" class="read-more">Baca selengkapnya</a>
+    </article>
+
+    <article>
+        <h2>Judul Blog 2</h2>
+        <p>Isi singkat blog post 2... Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+        <a href="#" class="read-more">Baca selengkapnya</a>
+    </article>
+
+    <!-- Elemen Interaktif: Form Kontak -->
+    <section>
+        <h2>Hubungi Saya</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Nama Anda" required>
+            <input type="email" name="email" placeholder="Email Anda" required>
+            <textarea name="message" rows="5" placeholder="Pesan Anda" required></textarea>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Blog Pribadi. Semua Hak Dilindungi.</p>
+</footer>
+
+</body>
+</html>
